@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+    box-sizing: border-box;
+  }
+  /* Encabezado */
+  header {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    text-align: left;
+  }
+
+  /* Navegación */
+  nav {
+    background-color: white;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style: none;
+    text-align: right;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-image:url("https://escuelasdecodigo.cdmx.gob.mx/wp-content/themes/escuelasdecodigo/dist/assets/hero.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+  }
+
+  /* Contenido */
+  .content {
+    color: white;
+  }
+
+  /* Texto */
+  .text {
+    text-align: left;
+  }
+
+  img {
+    float: left;
+    width: 20%;
+    max-height: 100px;
+  }
+
+  /* DE VERDAD INTENTE LOS FORMATOS DEL TEXTO, LO SIENTO */
+  .text h1 {
+    font-size: 3.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .text p {
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  /* NEGRITAS*/
+  .text .parrafo-negrita {
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  footer p:first-child {
+    color: #e5a65e;
+  }
